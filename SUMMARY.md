@@ -8,6 +8,8 @@
     * [账户操作](账号管理与权限设定/用户/账户操作.md)
       * [useradd](账号管理与权限设定/用户/账户操作/useradd.md)
       * [passwd](账号管理与权限设定/用户/账户操作/passwd.md)
+      * [usermod](账号管理与权限设定/用户/账户操作/usermod.md)
+      * userdel
   * [群组](账号管理与权限设定/群组.md)
     * [/etc/group](账号管理与权限设定/群组/etcgroup.md)
     * [/etc/gshadow](账号管理与权限设定/群组/etcgshadow.md)
