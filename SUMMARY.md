@@ -40,4 +40,5 @@
 * [备份和还原](备份和还原.md)
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
+    * [变量](/shell/Bash/变量.md)
 
