@@ -26,6 +26,8 @@ alias lm='ls -al'    #设置自定义命令lm来取代ls -al
 
 相当于正则表达式
 
+---
+
 ### 查询指令是bash指令，还是外部指令（非bash指令）
 
 ```
@@ -52,6 +54,13 @@ alias lm='ls -al'    #设置自定义命令lm来取代ls -al
     范例二：那么 cd 呢？
     [dmtsai@study ~]$ type cd
     cd is a shell builtin <==看到了吗？ cd 是 shell 内建指令
+
+
+### 快捷操作
+
+ \[ctrl\]+u/\[ctrl\]+k 分别是从光标处向前删除指令串 \(\[ctrl\]+u\) 及向后删除指令串 \(\[ctrl\]+k\)。 
+
+\[ctrl\]+a/\[ctrl\]+e 分别是让光标移动到整个指令串的最前面 \(\[ctrl\]+a\) 或最后面 \(\[ctrl\]+e\)。
 
 
 
