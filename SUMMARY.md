@@ -41,4 +41,6 @@
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
     * [变量](/shell/Bash/变量.md)
+      * [影响结果的语系变量](/shell/Bash/变量/影响结果的语系变量.md)
+      * [变量的有效范围](/shell/Bash/变量/变量的有效范围.md)
 
