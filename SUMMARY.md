@@ -39,4 +39,5 @@
 * [磁盘与文件系统管理](磁盘与文件系统管理.md)
 * [备份和还原](备份和还原.md)
 * [Shell](shell.md)
+  * [Bash](shell/bash.md)
 
