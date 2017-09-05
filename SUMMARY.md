@@ -52,5 +52,7 @@
       * [命令别名](shell/Bash/命令别名.md)
       * [历史命令](shell/Bash/历史命令.md)
     * [管线命令pipe](shell/Bash/管线命令pipe.md)
+      * [撷取命令： cut, grep](shell/Bash/管线命令pipe/撷取命令： cut, grep.md)
+      * [排序命令： sort, wc, uniq](shell/Bash/管线命令pipe/排序命令： sort, wc, uniq.md)
 * [备份和还原](备份和还原.md)
 
