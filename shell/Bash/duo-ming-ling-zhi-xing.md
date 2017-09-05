@@ -1,4 +1,4 @@
-###  ;
+### ;
 
 连续命令执行
 
@@ -17,9 +17,9 @@
 
 ### &&
 
- cmd1 && cmd2 
+cmd1 && cmd2
 
-1. 若 cmd1 执行完毕且正确执行\($?=0\)，则开始执行 cmd2 
+1. 若 cmd1 执行完毕且正确执行\($?=0\)，则开始执行 cmd2
 
 2. 若 cmd1 执行完毕且为错误 \($?≠0\)，则 cmd2 不执行
 
@@ -32,11 +32,11 @@ ls: cannot access /tmp/abc: No such file or directory
 
 ### \|\|
 
- cmd1 \|\| cmd2 
+cmd1 \|\| cmd2
 
 1. 若 cmd1 执行完毕且正确执行\($?=0\)，则 cmd2 不执行
 
- 2. 若 cmd1 执行完毕且为错误 \($?≠0\)，则开始执行 cmd2
+   1. 若 cmd1 执行完毕且为错误 \($?≠0\)，则开始执行 cmd2
 
 ```
 #测试 /tmp/abc 是否存在，若不存在则予以建立，若存在就不作任何事情
@@ -49,8 +49,13 @@ drwxrwxr-x. 2 dmtsai dmtsai 6 Jul 9 19:17 /tmp/abca <==结果出现了！有进�
 ---
 
 ```
-#我不清楚 /tmp/abc 是否存在，但就是要建立 /tmp/abc/hehe 文件
+#不清楚 /tmp/abc 是否存在，但就是要建立 /tmp/abc/hehe 文件
 [dmtsai@study ~]$ ls /tmp/abc || mkdir /tmp/abc && touch /tmp/abc/hehe
+```
+
+```
+#如果command1执行成功，则执行command2，否则执行command3
+command1 && command2 || command3
 ```
 
 
