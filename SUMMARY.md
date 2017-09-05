@@ -54,5 +54,6 @@
     * [管线命令pipe](shell/Bash/管线命令pipe.md)
       * [撷取命令： cut, grep](shell/Bash/管线命令pipe/撷取命令： cut, grep.md)
       * [排序命令： sort, wc, uniq](shell/Bash/管线命令pipe/排序命令： sort, wc, uniq.md)
+      * [哈](shell/Bash/管线命令pipe/ha.md)
 * [备份和还原](备份和还原.md)
 
