@@ -50,7 +50,6 @@
       * [命令行重导向](shell/Bash/命令行重导向.md)
       * [命令别名](shell/Bash/命令别名.md)
       * [历史命令](shell/Bash/历史命令.md)
+      * [多命令执行](shell/Bash/duo-ming-ling-zhi-xing.md)
 * [备份和还原](备份和还原.md)
-
-
 
