@@ -46,8 +46,11 @@
       * [使用变量](/shell/Bash/变量/使用变量.md)
       * [变量的有效范围](/shell/Bash/变量/变量的有效范围.md)
       * [影响结果的语系变量](/shell/Bash/变量/影响结果的语系变量.md)
-    * [命令别名](shell/Bash/命令别名.md)
-    * [历史命令](shell/Bash/历史命令.md)
-    * [命令行重导向](shell/Bash/命令行重导向.md)
+    * [命令](shell/Bash/ming-ling.md)
+      * [命令行重导向](shell/Bash/命令行重导向.md)
+      * [命令别名](shell/Bash/命令别名.md)
+      * [历史命令](shell/Bash/历史命令.md)
 * [备份和还原](备份和还原.md)
+
+
 
