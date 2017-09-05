@@ -58,6 +58,6 @@
       * [执行方式](shell/Bash/脚本/执行方式.md)
       * [判断](shell/Bash/脚本/判断.md)
         * [test](shell/Bash/脚本/判断/test.md)
-        * [\[ \]](shell/Bash/脚本/判断/.md)
+        * [判断符号\[ \]](shell/Bash/脚本/判断/判断符号[ ].md)
 * [备份和还原](备份和还原.md)
 
