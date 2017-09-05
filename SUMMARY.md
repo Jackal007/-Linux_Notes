@@ -55,5 +55,8 @@
       * [撷取命令： cut, grep](shell/Bash/管线命令pipe/撷取命令： cut, grep.md)
       * [排序命令： sort, wc, uniq](shell/Bash/管线命令pipe/排序命令： sort, wc, uniq.md)
     * [脚本](shell/Bash/脚本.md)
+      * [执行方式](shell/Bash/脚本/执行方式.md)
+      * [判断](shell/Bash/脚本/判断.md)
+        * test
 * [备份和还原](备份和还原.md)
 
