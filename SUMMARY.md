@@ -61,5 +61,6 @@
       * [函数](shell/Bash/脚本/函数.md)
       * [循环](shell/Bash/脚本/循环.md)
       * [随机数](shell/Bash/脚本/随机数.md)
+      * [debug](shell/Bash/脚本/debug.md)
 * [备份和还原](备份和还原.md)
 
