@@ -39,6 +39,7 @@
     * [指令与文件的搜寻](文件/文件的相关操作/指令与文件的搜寻.md)
   * [压缩](文件/压缩.md)
 * [磁盘与文件系统管理](磁盘与文件系统管理.md)
+* [进程管理](进程管理.md)
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
     * [变量](/shell/Bash/变量.md)
@@ -64,5 +65,6 @@
       * [debug](shell/Bash/脚本/debug.md)
 * [备份和还原](备份和还原.md)
 * [temp](temp.md)
-* [temp2](temp2.md)
+
+
 
