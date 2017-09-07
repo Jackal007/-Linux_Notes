@@ -41,6 +41,7 @@
 * [磁盘与文件系统管理](磁盘与文件系统管理.md)
 * [进程管理](进程管理.md)
   * [job control](进程管理/job-control.md)
+  * [job observe](进程管理/job-observe.md)
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
     * [变量](/shell/Bash/变量.md)
