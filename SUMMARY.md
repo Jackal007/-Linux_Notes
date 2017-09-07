@@ -40,6 +40,7 @@
   * [压缩](文件/压缩.md)
 * [磁盘与文件系统管理](磁盘与文件系统管理.md)
 * [进程管理](进程管理.md)
+  * [job control](进程管理/job-control.md)
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
     * [变量](/shell/Bash/变量.md)
@@ -48,7 +49,7 @@
       * [变量的有效范围](/shell/Bash/变量/变量的有效范围.md)
       * [影响结果的语系变量](/shell/Bash/变量/影响结果的语系变量.md)
     * [命令](shell/Bash/ming-ling.md)
-      * [命令行重导向](shell/Bash/命令行重导向.md)
+      * [数据流重导向](shell/Bash/数据流重导向.md)
       * [多命令执行](shell/Bash/duo-ming-ling-zhi-xing.md)
       * [命令别名](shell/Bash/命令别名.md)
       * [历史命令](shell/Bash/历史命令.md)
@@ -65,6 +66,4 @@
       * [debug](shell/Bash/脚本/debug.md)
 * [备份和还原](备份和还原.md)
 * [temp](temp.md)
-
-
 
