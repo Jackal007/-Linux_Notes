@@ -1,3 +1,8 @@
+> ```
+> [root@study ~]# echo $$
+> 14836 <==就是这个数字！他是我们 bash 的 PID
+> ```
+
 ## ps ：将某个时间点的进程运作情况撷取下来
 
 ```
@@ -168,6 +173,32 @@ KiB Swap: 1048572 total, 1048572 free, 0 used. 2318680 avail Mem
 * #### 下面的部分
 
   和ps的意思一样
+
+##  pstree
+
+    [root@study ~]# pstree [-A|U] [-up]
+选项与参数：
+    -A ：各进程树之间的连接以 ASCII 字符来连接；
+    -U ：各进程树之间的连接以万国码的字符来连接。在某些终端接口下可能会有错误；
+    -p ：并同时列出每个 process 的 PID；
+    -u ：并同时列出每个 process 的所属账号名称。
+    范例一：列出目前系统上面所有的进程树的相关性：
+    [root@study ~]# pstree -A
+    systemd-+-ModemManager---2*[{ModemManager}] # 这行是 ModenManager 与其子进程
+     |-NetworkManager---3*[{NetworkManager}] # 前面有数字，代表子进程的数量！
+    ....(中间省略)....
+     |-sshd---sshd---sshd---bash---bash---sudo---su---bash---pstree <==我们指令执行的相依性
+    ....(底下省略)....
+    # 注意一下，为了节省版面，所以鸟哥已经删去很多进程了！
+    范例二：承上题，同时秀出 PID 与 users
+    [root@study ~]# pstree -Aup
+    systemd(1)-+-ModemManager(745)-+-{ModemManager}(785)
+               |                   `-{ModemManager}(790)
+               |-NetworkManager(870)-+-{NetworkManager}(907)
+               |                     |-{NetworkManager}(911)
+               |                      `-{NetworkManager}(914)
+                    ....(底下省略)....
+    # 括号内的即是 PID 以及该进程的 owner，如果该进程的拥有者与父进程同就不会列出，但如果与父进程不同，就会列出！
 
 
 
