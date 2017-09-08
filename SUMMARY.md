@@ -43,6 +43,8 @@
   * [process control](进程管理/process-control.md)
     * [kill](进程管理/process-control/kill.md)
   * [process observe](进程管理/process-observe.md)
+  * [系统资源](进程管理/系统资源.md)
+    * [内存使用情况](进程管理/系统资源/内存使用情况.md)
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
     * [变量](/shell/Bash/变量.md)
