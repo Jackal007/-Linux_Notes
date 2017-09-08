@@ -3,6 +3,24 @@
 > 14836 <==就是这个数字！他是我们 bash 的 PID
 > ```
 
+### 观察目前的背景工作状态： jobs
+
+```
+[root@study ~]# jobs [-lrs]
+选项与参数：
+-l ：除了列出 job number 与指令串之外，同时列出 PID 的号码；
+-r ：仅列出正在背景 run 的工作；
+-s ：仅列出正在背景当中暂停 (stop) 的工作。
+
+
+范例一：观察目前的 bash 当中，所有的工作，与对应的 PID
+[root@study ~]# jobs -l
+[1]- 14566 Stopped vim ~/.bashrc
+[2]+ 14567 Stopped find / -print
+```
+
+* 代表最近被放到背景的工作号码， - 代表最近最后第二个被放置到背景中的工作号码。 而 超过最后第三个以后的工作，就不会有 +/- 符号存在了！
+
 ## ps ：将某个时间点的进程运作情况撷取下来
 
 ```
@@ -174,21 +192,25 @@ KiB Swap: 1048572 total, 1048572 free, 0 used. 2318680 avail Mem
 
   和ps的意思一样
 
-##  pstree
+## pstree
 
-    [root@study ~]# pstree [-A|U] [-up]
-选项与参数：
-    -A ：各进程树之间的连接以 ASCII 字符来连接；
-    -U ：各进程树之间的连接以万国码的字符来连接。在某些终端接口下可能会有错误；
-    -p ：并同时列出每个 process 的 PID；
-    -u ：并同时列出每个 process 的所属账号名称。
-    范例一：列出目前系统上面所有的进程树的相关性：
-    [root@study ~]# pstree -A
-    systemd-+-ModemManager---2*[{ModemManager}] # 这行是 ModenManager 与其子进程
-     |-NetworkManager---3*[{NetworkManager}] # 前面有数字，代表子进程的数量！
-    ....(中间省略)....
-     |-sshd---sshd---sshd---bash---bash---sudo---su---bash---pstree <==我们指令执行的相依性
-    ....(底下省略)....
+```
+[root@study ~]# pstree [-A|U] [-up]
+```
+
+选项与参数：  
+    -A ：各进程树之间的连接以 ASCII 字符来连接；  
+    -U ：各进程树之间的连接以万国码的字符来连接。在某些终端接口下可能会有错误；  
+    -p ：并同时列出每个 process 的 PID；  
+    -u ：并同时列出每个 process 的所属账号名称。  
+    范例一：列出目前系统上面所有的进程树的相关性：  
+    \[root@study ~\]\# pstree -A  
+    systemd-+-ModemManager---2_\[{ModemManager}\] \# 这行是 ModenManager 与其子进程  
+     \|-NetworkManager---3_\[{NetworkManager}\] \# 前面有数字，代表子进程的数量！  
+    ....\(中间省略\)....  
+     \|-sshd---sshd---sshd---bash---bash---sudo---su---bash---pstree &lt;==我们指令执行的相依性  
+    ....\(底下省略\)....
+
     # 注意一下，为了节省版面，所以鸟哥已经删去很多进程了！
     范例二：承上题，同时秀出 PID 与 users
     [root@study ~]# pstree -Aup
