@@ -12,7 +12,6 @@
 -r ：仅列出正在背景 run 的工作；
 -s ：仅列出正在背景当中暂停 (stop) 的工作。
 
-
 范例一：观察目前的 bash 当中，所有的工作，与对应的 PID
 [root@study ~]# jobs -l
 [1]- 14566 Stopped vim ~/.bashrc
