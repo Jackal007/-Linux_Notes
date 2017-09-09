@@ -50,6 +50,7 @@
   * [系统资源](进程管理/系统资源.md)
     * [内存使用情况](进程管理/系统资源/内存使用情况.md)
     * 系统启动时间和工作负载
+* [服务](fu-wu.md)
 * [Shell](shell.md)
   * [Bash](shell/bash.md)
     * [变量](/shell/Bash/变量.md)
@@ -74,5 +75,4 @@
       * [随机数](shell/Bash/脚本/随机数.md)
       * [debug](shell/Bash/脚本/debug.md)
 * [备份和还原](备份和还原.md)
-* [SELinux](selinux.md)
 
