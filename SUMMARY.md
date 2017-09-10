@@ -76,4 +76,8 @@
       * [随机数](shell/Bash/脚本/随机数.md)
       * [debug](shell/Bash/脚本/debug.md)
 * [备份和还原](备份和还原.md)
+* others
+  * [awk](awk.md)
+  * [grep](grep.md)
+  * [find](find.md)
 
