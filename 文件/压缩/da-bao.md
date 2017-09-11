@@ -31,8 +31,6 @@
 * -P\(大写\) ：保留绝对路径，亦即允许备份数据中含有根目录存在，那么解压的时候就会自动回到原来的绝对路径下
 * --exclude=FILE：在压缩的过程中，不要将 FILE 打包！
 
-例子
-
 ```
 \# tar -cf all.tar \*.jpg 这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。
 
@@ -71,7 +69,7 @@ tar -xvf file.tar -C DestinationDirectory    \#将文件解压到DestinationDire
 tar -xv -f xxx.tar target    \#将压缩包中的某个文件解压出来
 ```
 
-总结
+#### 总结
 
 |  |  |
 | :--- | :--- |
