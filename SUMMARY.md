@@ -83,5 +83,5 @@
 * [others](others.md)
   * [awk](others/awk.md)
   * [grep](others/grep.md)
-  * [find](othser/find.md)
+  * [find](others/find.md)
 
