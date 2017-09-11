@@ -8,11 +8,11 @@
 
 > 打包后的文件叫做：tarfile；打包压缩后的文件叫做：tarball
 
-* -c: 建立压缩档案
-* -x：解压
-* -t：查看内容
-* -r：向压缩归档文件末尾追加文件
-* -u：更新原压缩包中的文件
+* **-c**: 建立压缩档案
+* **-x**：解压
+* **-t**：查看内容
+* **-r**：向压缩归档文件末尾追加文件
+* **-u**：更新原压缩包中的文件
 
 这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。
 
@@ -32,15 +32,15 @@
 * --exclude=FILE：在压缩的过程中，不要将 FILE 打包！
 
 ```
-\# tar -cf all.tar \*.jpg 这条命令是将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。
+\# tar -cf all.tar \*.jpg 将所有.jpg的文件打成一个名为all.tar的包。-c是表示产生新的包，-f指定包的文件名。
 
-\# tar -rf all.tar \*.gif 这条命令是将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。
+\# tar -rf all.tar \*.gif 将所有.gif的文件增加到all.tar的包里面去。-r是表示增加文件的意思。
 
-\# tar -uf all.tar logo.gif 这条命令是更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。
+\# tar -uf all.tar logo.gif 更新原来tar包all.tar中logo.gif文件，-u是表示更新文件的意思。
 
-\# tar -tf all.tar 这条命令是列出all.tar包中所有文件，-t是列出文件的意思,在不解压的情况下查看压缩包的内容
+\# tar -tf all.tar 列出all.tar包中所有文件，-t是列出文件的意思,在不解压的情况下查看压缩包的内容
 
-\# tar -xf all.tar 这条命令是解出all.tar包中所有文件，-x是解开的意思
+\# tar -xf all.tar 解出all.tar包中所有文件，-x是解开的意思
 ```
 
 压缩
@@ -62,7 +62,9 @@ tar –xvf file.tar    \#解压 tar包
 
 tar -xzvf file.tar.gz    \#解压tar.gz
 
-tar -xjvf file.tar.bz2    \#解压 tar.bz2tar –xZvf file.tar.Z //解压tar.Z
+tar -xjvf file.tar.bz2    \#解压 tar.bz2
+
+tar –xZvf file.tar.Z //解压tar.Z
 
 tar -xvf file.tar -C DestinationDirectory    \#将文件解压到DestinationDirectory中
 
