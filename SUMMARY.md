@@ -85,4 +85,7 @@
   * [awk](others/awk.md)
   * [grep](others/grep.md)
   * [find](others/find.md)
+* 发行版
+  * ubuntu
+    * [装ftp服务](zhuang-ftp-fu-wu.md)
 
