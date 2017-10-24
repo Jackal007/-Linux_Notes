@@ -1,6 +1,8 @@
+### /etc/shadow
+
 我们知道很多程序的运作都与权限有关，而权限与 UID/GID 有关！因此各程序当然需要读取 /etc/passwd 来了解不同账号的权限。 因此 /etc/passwd 的权限需设定为 -rw-r--r-- 这样的情况， 虽 然早期的密码也有加密过，但却放置到 /etc/passwd 的第二个字段上！这样一来很容易被有心人士所 窃取的， 加密过的密码也能够透过暴力破解法去 trial and error \(试误\) 找出来！ 因为这样的关系，所以后来发展出将密码移动到 /etc/shadow 这个文件分隔开来的技术， 而且还加 入很多的密码限制参数在 /etc/shadow 里头:
 
-```
+```bash
 [root@study ~]# head -n 4 /etc/shadow
 root:$6$wtbCCce/PxMeE5wm$KE2IfSJr.YLP7Rcai6oa/T7KFhO...:16559:0:99999:7::: <==底下说明用
 bin:*:16372:0:99999:7:::
@@ -32,7 +34,7 @@ adm:*:16372:0:99999:7:::
 
 算：
 
-```
+```bash
 [root@study ~]# echo $(($(date --date="2015/05/04" +%s)/86400+1))
 16559
 ```
