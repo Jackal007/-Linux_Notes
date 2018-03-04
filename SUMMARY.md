@@ -98,5 +98,9 @@
       * [recon-ng](kali/recon-ng.md)
     * 漏洞分析
       * nikto
+    * [密码攻击](kali/mi-ma-gong-ji.md)
+    * 无线攻击
+      * [wifite](kali/wifite.md)
+      * [MDK3](kali/mdk3.md)
   * Cyborg Hawk
 
