@@ -85,7 +85,18 @@
   * [awk](others/awk.md)
   * [grep](others/grep.md)
   * [find](others/find.md)
-* 发行版
+* [发行版](fa-xing-ban.md)
   * ubuntu
     * [装ftp服务](zhuang-ftp-fu-wu.md)
+  * [kali](kali.md)
+    * 信息收集
+      * [ike-scan](kali/ike-scan.md)
+      * [Maltego](kali/maltego.md)
+      * netdiscover
+      * nmap
+      * [p0f](kali/p0f.md)
+      * [recon-ng](kali/recon-ng.md)
+    * 漏洞分析
+      * nikto
+  * Cyborg Hawk
 
