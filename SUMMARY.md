@@ -104,7 +104,10 @@
       * [MDK3](kali/mdk3.md)
       * reaver
       * [aircrack-ng](kali/aircrack-ng.md)
-        * [aireplay-ng](kali/aircrack-ng/aireplay-ng.md)
+        * [airmon-ng](kali/aircrack-ng/airmon-ng.md)
         * [airodump-ng](kali/aircrack-ng/airodump-ng.md)
+        * [airserv-ng](kali/aircrack-ng/airserv-ng.md)
+        * [aireplay-ng](kali/aircrack-ng/aireplay-ng.md)
+        * [airolib-ng](kali/aircrack-ng/airolib-ng.md)
   * Cyborg Hawk
 
