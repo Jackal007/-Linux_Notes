@@ -14,5 +14,11 @@ iwconfig wlan0 mode monitor(监视模式)/managed(普通模式)
 ifconfig wlan0 up
 ```
 
+### 查看网卡
+
+```
+iwconfig
+```
+
 
 
