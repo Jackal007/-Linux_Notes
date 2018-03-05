@@ -109,5 +109,9 @@
         * [airserv-ng](kali/aircrack-ng/airserv-ng.md)
         * [aireplay-ng](kali/aircrack-ng/aireplay-ng.md)
         * [airolib-ng](kali/aircrack-ng/airolib-ng.md)
+        * [airecap](kali/aircrack-ng/airecap.md)
+        * [airbase-ng](kali/aircrack-ng/airbase-ng.md)
+        * airecloak-ng
+        * airtun-ng
   * Cyborg Hawk
 
