@@ -113,5 +113,6 @@
         * [airbase-ng](kali/aircrack-ng/airbase-ng.md)
         * airecloak-ng
         * airtun-ng
+      * [cowpatty](kali/cowpatty.md)
   * Cyborg Hawk
 
