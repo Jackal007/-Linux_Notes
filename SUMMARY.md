@@ -116,7 +116,7 @@
         * airecloak-ng
         * airtun-ng
       * [cowpatty](kali/cowpatty.md)
+    * 暴力破解
+      * [hydra](kali/hydra.md)
   * Cyborg Hawk
-
-
 
