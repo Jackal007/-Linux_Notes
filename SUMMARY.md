@@ -99,6 +99,8 @@
     * 漏洞分析
       * nikto
     * [密码攻击](kali/mi-ma-gong-ji.md)
+      * [cewl](kali/mi-ma-gong-ji/cewl.md)
+      * [crunch](kali/mi-ma-gong-ji/crunch.md)
     * [无线攻击](kali/wu-xian-gong-ji.md)
       * [wifite](kali/wifite.md)
       * [MDK3](kali/mdk3.md)
