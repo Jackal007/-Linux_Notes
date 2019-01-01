@@ -85,6 +85,7 @@
   * [awk](others/awk.md)
   * [grep](others/grep.md)
   * [find](others/find.md)
+  * [linux连接wifi](others/wpa_xxx.md)
 * [发行版](fa-xing-ban.md)
   * ubuntu
     * [装ftp服务](zhuang-ftp-fu-wu.md)
